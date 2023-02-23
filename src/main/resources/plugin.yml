@@ -1,0 +1,11 @@
+name: TestCommunication
+version: '${project.version}'
+main: de.kleingeschrieben.testcommunication.TestCommunication
+api-version: 1.19
+authors: [ kleingeschrieben ]
+description: Plugin to test the future communication between minecraft and weservices
+commands:
+  test:
+    description: Your description
+    usage: /test
+    permission: yourplugin.yourcommandpermission
